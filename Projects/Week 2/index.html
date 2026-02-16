@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the lecture for week 2 semantic HTML">
+    <title>Week 2</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">about</a></li>
+            <li><a href="#css-basics">Jump to css basics</a></li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener">Youtube</a></li>
+        </ul>
+    </nav>
+    <h1>Semantic HTML and CSS Basics</h1>
+    <p>This Page is a demo, If we remove CSS, it should still make sense</p>
+</header>
+<main>
+    <sec> 
+        <h2>Headings create structure</h2>
+        <p> 
+        Headings Define the outines of a page. They are not choosing font sizes. CSS controls size. CSS controls size. HTML controls meaning.
+        </p>
+        <h3>Don't skip levels</h3>
+        <p>
+            You generally go h1, then h2, then h3 all the way levels makes navigation harder especially for assistive tech, and search engines.
+        </p>
+        
+    </sec>
+    <sec>
+        <p>paragraphs are block level elements by default</p>
+        <p>here is a link <a href="https://youtube.com">Youtube</a> </p>
+        <p>
+            Here is <strong>strong importance</strong> and here is <em>emphasis.</em> These are sematic not "just styling"
+        </p>
+    </sec>
+    
+    <sec>
+        <h2>Lists are collections</h2>
+        <h3>Unordered lists</h3>
+        <ul>
+            <li>Oranges</li>
+            <li>Bannanas</li>
+            <li>Apples</li>
+        </ul>
+        <h3>Ordered list (steps)</h3>
+        <ol>
+            <li>Open folder</li>
+            <li>Start live server</li>
+            <li>Edit HTML and it refreshes</li>
+        </ol>
+    </sec>
+    <sec>
+        <h2>Images</h2>
+        <p>Images must have alt (alternative text). Alt describes purpose not appearance</p>
+        <figure>
+            <img src="./img/Image_one.png" alt="A simple place holder"/>    
+       <figcaption>This is a figure caption</figcaption>
+        </figure>
+    </sec>
+    <sec>
+        <h2>Tables</h2>
+        <table>
+            <ca>
+                Student marks 
+            </ca>
+            <thea>
+                <tr>
+                    <th>course</th>
+                    <th>Task</th>
+                    <th>Mark</th>
+                </tr> 
+            </thea>
+            <tb>
+                <tr>
+                    <td>Anima</td>
+                    <td>Week 1</td>
+                    <td>78</td>
+                </tr>
+                <tr>
+                    <td>Steve</td>
+                    <td>Week 1</td>
+                    <td>68</td>
+                </tr>
+            </tb>
+           
+        </table>
+    </sec>
+</main>
+<footer>
+    <p>Copyright @ Nkosinathi <time datetime="2026-02-12">12 February 2026</time> </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    font-family: Helvetica;
+    line-height: 1.5;
+    margin: 0;
+    padding: 24px;
+}
+
+header, main, footer {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+}
+
+table {
+    boarder-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+}
