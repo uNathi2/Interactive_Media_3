@@ -1,25 +1,25 @@
-body {
-    font-family: Helvetica;
-    line-height: 1.5;
-    margin: 0;
-    padding: 24px;
+/* Style for active navigation link */
+nav a.active {
+    font-weight: bold;
+    color: #0066cc;
+    text-decoration: underline;
 }
 
-header, main, footer {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
+/* General navigation styling */
 nav ul {
     list-style: none;
-    padding: 20px;
+    padding: 0;
+    display: flex;
+    gap: 20px;
 }
 
-table {
-    boarder-collapse: collapse;
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
 }
 
-th, td {
-    border: 1px solid #000000;
-    padding: 10px;
+nav a:hover {
+    background-color: #f0f0f0;
+    border-radius: 3px;
 }
