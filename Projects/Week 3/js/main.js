@@ -24,6 +24,9 @@ const event = {
     isSoldOut: false,
 };
 
+//2.5 Arrays
+const attendees = ["Alice" , "Bob", "Carol"];
+
 //3. Strings and Interpolation
 //template literals
 const message = "Welcome to" + eventName + ". Ticket Cost R" + ticketPrice + ".";
@@ -31,8 +34,9 @@ const message = "Welcome to" + eventName + ". Ticket Cost R" + ticketPrice + "."
 const newMessage = `Welcome to ${eventName}. Tickets cost ${ticketPrice}`;
 
 //4. Operators and Expressions
-const totalCost = (ticketPrice = serviceFee); //
+const totalCost = ticketPrice + serviceFee; //
 const discount = ticketPrice - 50; //multiplication
+const groupPrice = ticketPrice * 4;
 const pricePerHead = groupPrice /4; // division
 const reminder = 200 % 3; // modulo remainder after division
 
@@ -49,4 +53,12 @@ const canEnter = !IsSoldOut && isAllAgesEvent; //%% means AND
 
 console.log(IsSoldOut); //true
 console.log(isSoldOut || true); //true
-console.log(isSoldOut && true); //false 
+console.log(isSoldOut && true); //false
+
+//5. Control Flow
+//5.1 conditionals
+if (availableTickets > 50) {
+    console.log("Good availability");
+} else if (availableTickets > 0) { console.log("Hurry, there are "); }
+
+}
